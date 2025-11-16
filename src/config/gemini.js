@@ -2,7 +2,7 @@
 
 import { GoogleGenAI } from '@google/genai';
 
-const GEMINI_API_KEY = 'AIzaSyBVRqw4j07DChPTvxV2U7Xi3l4u5Twji08';
+const GEMINI_API_KEY = '##';
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 async function runChat(prompt) {
